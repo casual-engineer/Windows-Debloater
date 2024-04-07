@@ -1,0 +1,49 @@
+# Stop and disable bloat services
+
+Stop-Service -Name "Wsearch"
+Set-Service -Name "Wsearch" -StartupType Disabled
+
+Stop-Service -Name "fsvc"
+Set-Service -Name "fsvc" -StartupType Disabled
+
+Stop-Service -Name "Spooler"
+Set-Service -Name "Spooler" -StartupType Disabled
+
+Stop-Service -Name "DusmSvc"
+Set-Service -Name "DusmSvc" -StartupType Disabled
+
+Stop-Service -Name "DusmSvc"
+Set-Service -Name "DusmSvc" -StartupType Disabled
+
+Stop-Service -Name "Themes"
+Set-Service -Name "Themes" -StartupType Disabled
+
+
+Stop-Service -Name "VaultSvc"
+Set-Service -Name "VaultSvc" -StartupType Disabled
+
+Stop-Service -Name "Themes"
+Set-Service -Name "Themes" -StartupType Disabled
+
+Stop-Service -Name "SEMgrSvc"
+Set-Service -Name "SEMgrSvc" -StartupType Disabled
+
+Stop-Service -Name "SCardSvr"
+Set-Service -Name "SCardSvr" -StartupType Disabled
+
+Stop-Service -Name "gpsvc"
+Set-Service -Name "gpsvc" -StartupType Disabled
+
+Stop-Service -Name "FontCache"
+Set-Service -Name "FontCache" -StartupType Disabled
+
+Stop-Service -Name "EventLog"
+Set-Service -Name "EventLog" -StartupType Disabled
+
+Stop-Service -Name "DoSvc"
+Set-Service -Name "DoSvc" -StartupType Disabled
+
+Stop-Service -Name "DiagTrack"
+Set-Service -Name "DiagTrack" -StartupType Disabled
+
+
